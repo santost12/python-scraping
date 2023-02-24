@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0'}
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0'}
 url = "https://www.debian.org/News/"
 
 page = requests.get(url, headers=headers)
