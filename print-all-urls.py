@@ -9,7 +9,7 @@ if len(sys.argv) != 2:
 
 url = sys.argv[1]
 
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0'}
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0'}
 page = requests.get(url, headers=headers)
 entire_page = page.text
 
